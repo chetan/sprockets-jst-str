@@ -1,6 +1,6 @@
-# jst_str
+# jst\_str
 
-jst_str is a [Sprockets](https://github.com/sstephenson/sprockets) extension which simply returns the entire template as an escaped JavaScript string. For example, a file named __hello.jst.str__:
+jst\_str is a [Sprockets](https://github.com/sstephenson/sprockets) extension which simply returns the entire template as an escaped JavaScript string. For example, a file named __hello.jst.str__:
 
     <h1 class="foobar">Hello <%= get('name') %></h1>
 
