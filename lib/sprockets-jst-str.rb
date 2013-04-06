@@ -1,12 +1,12 @@
 
-require 'jst_str/version'
+require 'sprockets-jst-str/version'
 
-module JstStr
+module SprocketsJstStr
 
-  autoload(:StrTemplate, 'jst_str/str_template')
+  autoload(:StrTemplate, 'sprockets-jst-str/str_template')
 
   if defined?(Rails)
-    require 'jst_str/engine'
+    require 'sprockets-jst-str/engine'
   else
     require 'sprockets'
     Sprockets.register_engine ".str", StrTemplate

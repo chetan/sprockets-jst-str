@@ -1,6 +1,6 @@
 require 'tilt'
 
-module JstStr
+module SprocketsJstStr
 
   # Tilt engine class for the String compiler.
   class StrTemplate < Tilt::Template
